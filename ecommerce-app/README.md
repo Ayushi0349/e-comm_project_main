@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # E-Commerce Product Listing Page
 
 A pixel-perfect, fully responsive e-commerce product listing page built with React, TypeScript, and Tailwind CSS.
@@ -19,26 +17,22 @@ A pixel-perfect, fully responsive e-commerce product listing page built with Rea
 ## 📦 Installation
 
 1. **Clone the repository**
-
 ```bash
 git clone <your-repo-url>
 cd ecommerce-app
 ```
 
 2. **Install dependencies**
-
 ```bash
 npm install
 ```
 
 3. **Start the development server**
-
 ```bash
 npm run dev
 ```
 
 4. **Build for production**
-
 ```bash
 npm run build
 ```
@@ -73,13 +67,11 @@ src/
 ## 🎨 Design System
 
 ### Colors
-
 - Primary: `#40BFFF`
 - Secondary: `#FB7181`
 - Hot Badge: `#FF6875`
 
 ### Breakpoints
-
 - Mobile: `< 640px`
 - Tablet: `640px - 1024px`
 - Desktop: `> 1024px`
@@ -87,26 +79,22 @@ src/
 ## ✨ Key Features Implementation
 
 ### 1. Product Filtering
-
 - Price range slider
 - Color selection with visual feedback
 - Brand checkboxes
 - Category filtering
 
 ### 2. Sorting
-
 - Name (A-Z)
 - Price (Low to High)
 - Popularity (Rating)
 
 ### 3. Pagination
-
 - Dynamic page calculation
 - Smooth scroll to top
 - URL state persistence
 
 ### 4. Responsive Design
-
 - Mobile-first approach
 - Collapsible sidebar on mobile
 - Adaptive grid layout
@@ -165,11 +153,4 @@ Your Name
 
 ---
 
-# Built with ❤️ using React, TypeScript, and Tailwind CSS
-
-# e-comm_project_main
-
-<<<<<<< HEAD
-your content
-=======
-incoming content
+Built with ❤️ using React, TypeScript, and Tailwind CSS

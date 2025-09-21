@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --color-primary: #40BFFF;
+  --color-secondary: #FB7181;
+  --color-hot: #FF6875;
+  --font-sans: Poppins, sans-serif;
+}
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply m-0 p-0 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-500 transition-colors;
+  }
+  
+  .badge-hot {
+    @apply absolute top-2 left-2 bg-hot text-white text-xs px-2 py-1 rounded z-10;
+  }
+  
+  .product-card-hover {
+    @apply hover:shadow-lg transition-shadow duration-300;
+  }
+}
+
+@layer utilities {
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
